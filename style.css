@@ -1,0 +1,123 @@
+.navbar
+{
+overflow-x:hidden;
+overflow-y:hidden;
+background:black;
+}
+.navbar-toggler-icon
+{
+background:white;
+
+}
+.hero
+{
+
+overflow-x:hidden;
+overflow-y:hidden;
+padding-bottom:70px;
+}
+
+@media only screen and (max-width: 600px) {
+ .leftdev h1, h3, h2,p,.bt1{
+   margin-left:-100px;
+  }
+p{
+width:300px;
+}
+.rightdev img
+{
+margin-top:50px;
+}
+}
+
+
+
+.devhero
+{
+display:flex;
+text-align:center;
+justify-content:space-around;
+}
+
+.leftdev{
+padding-top:120px;
+text-align:left;
+
+}
+.rightdev img
+{
+border-radius:50%;
+}
+
+.rightdev
+{
+padding-bottom:50px;
+padding-top:50px;
+}
+.about
+{
+overflow-x:hidden;
+padding-top:70px;
+background:black !important;
+padding-bottom:70px;
+
+}
+
+.mainabout
+{
+
+display:flex;
+text-align:center;
+justify-content:space-around;
+}
+
+.leftabout img
+{
+border-radius:50%;
+border:4px solid orangered;
+margin-left:200px;
+
+}
+
+.rightabout{
+text-align:left;
+margin-left:400px;
+}
+@media only screen and (max-width: 600px) {
+ .rightabout{
+margin-left:-200px;
+margin-top:300px;
+}
+.bt3
+{
+margin-left:-100px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+ .rightdev {
+    margin-top:330px;
+margin-left:-800px;
+height:300px;
+width:200px;
+  }
+}
+
+.contact
+{
+margin-top:70px;
+margin-bottom:70px;
+}
+.maincontact
+{
+text-align:center
+}
+
+.footer
+{
+background:black;
+padding-top:30px!important;
+}
